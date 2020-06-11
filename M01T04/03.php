@@ -1,11 +1,12 @@
 <?php
 
-$alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','Ñ','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+$alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+$lowerAlphabet = array_map('strtolower', $alphabet);
+$alphabetLenght = count($alphabet);
 
-foreach ($alphabet as $completed) {
-    echo strtolower($completed) ." $completed". "<br/>";
+for ($i=0; $i < $alphabetLenght; $i++) { 
+    print_r("$lowerAlphabet[$i] $alphabet[$i]<br/>");
 }
 
-//MODIFY NOW
 ?>
 

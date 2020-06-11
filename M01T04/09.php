@@ -1,5 +1,5 @@
 <?php
-$answers = "YES NO YES YES NO NO YES NO YES YES YES YES YES NO NO NO YES NO NO YES YES NO YES NO YES NO YES NO YES NO YES YES NO NO YES YES NO NO NO NO YES YES NO NO NO NO NO YES NO YES";
+$answers = "YES NO YES YES NO NO YES NO YES YES YES YES YES NO NO NO YES NO NO YES YES NO YES NO YES NO YES NO YES NO";
 $answersArray = explode(" ", $answers);
 $total = count($answersArray);
 $frequence = array_count_values($answersArray);
