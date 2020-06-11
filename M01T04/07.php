@@ -1,14 +1,12 @@
 <?php
 
-$string = "B I C I C L E T A";
-$stringArray = explode(' ' , $string);
-$arrayToString = implode($stringArray);
+$string = "BICICLETA";
+$stringArray = str_split($string);
+$stringLength = count($stringArray);
+// $arrayToString = implode($stringArray);
 
-
-foreach ($show as $key => $stringArray) {
-    if ($show % 2){
-        print_r("Caracteres impares: ");
-     }
+for ($i=0; $i < $stringLength; $i++) { 
+    if($stringArray[$i] );
 }
 
 //MODIFY NOW
