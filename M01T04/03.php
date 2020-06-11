@@ -6,4 +6,6 @@ foreach ($alphabet as $completed) {
     echo strtolower($completed) ." $completed". "<br/>";
 }
 
+//MODIFY NOW
 ?>
+
