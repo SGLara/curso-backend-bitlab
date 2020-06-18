@@ -1,7 +1,12 @@
 <?php
-$numbers = [10, 8, 5.2, 6.9, 10, 10, 10, 10, 9.7, 8.5];
-$promedio = array_sum($numbers)/count($numbers); 
+$grades = [10, 8, 5.2, 6.9, 10, 10, 10, 10, 9.7, 8.5];
+$promedio = array_sum($grades)/count($grades); 
+$sum = 0;
 
-echo '<b>Los números son: </b>' .implode(", ", $numbers).'<br/><br/><b>Y su promedio es: </b>' .$promedio;
+for ($i = 0; $i < count($grades); $i++) { 
+    $sum += $grades[$i];
+}
+
+echo "El promedio de las notas es: " . number_format($sum / count($grades), 2);
 
 ?>
