@@ -6,6 +6,18 @@ echo "<b>Minimo común multiplo de $num1 --y-- $num2</b><br/><br/>";
 
 while ($num1 > 1 && $num2 > 1) {
     if ($num1 % 2 || $num2 % 2) {
+        if (condition) {
+            # code...
+        }
+
+
+
+
+
+
+
+
+
         $num1 /= 2;
         $num2 /= 2;
         $mcm = 2;

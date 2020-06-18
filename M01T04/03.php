@@ -8,5 +8,11 @@ for ($i=0; $i < $alphabetLenght; $i++) {
     print_r("$lowerAlphabet[$i] $alphabet[$i]<br/>");
 }
 
+    //SECOND ALTERNATIVE
+
+// for ($i = 0; $i < count($alphabet); $i++) { 
+//     echo strtolower($alphabet[$i]) . " {$alphabet[$i]} <br/>";
+// }
+
 ?>
 

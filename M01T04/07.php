@@ -1,13 +1,16 @@
 <?php
 
-$string = "BICICLETA";
-$stringArray = str_split($string);
-$stringLength = count($stringArray);
-// $arrayToString = implode($stringArray);
+$array = str_split('BICICLETA');
+$evenChars = '';
+$oddChars = '';
 
-for ($i=0; $i < $stringLength; $i++) { 
-    if($stringArray[$i] );
+for ($i = 0; $i < count($array); $i++) { 
+    if ($i % 2 == 0) {
+        $evenChars .= $array[$i];
+    } else {
+        $oddChars .= $array[$i];
+    }
 }
 
-//MODIFY NOW
-?>
+echo "Caracteres pares: $evenChars<br>";
+echo "Caracteres impares: $oddChars<br>";
