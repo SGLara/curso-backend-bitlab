@@ -9,15 +9,6 @@ while ($num1 > 1 && $num2 > 1) {
         if (condition) {
             # code...
         }
-
-
-
-
-
-
-
-
-
         $num1 /= 2;
         $num2 /= 2;
         $mcm = 2;

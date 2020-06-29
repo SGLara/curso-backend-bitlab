@@ -1,6 +1,5 @@
 <?php
     
-    //WITHOUT USING A CONTROL STRUCTURE
 $string = "HOLA";
 $array = str_split($string);
 $array = array_reverse($array);
